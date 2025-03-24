@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+  <div class="form_box">
+    <form id="cadastro_form">
+      <h1>Cadastro</h1>
+      <div>
+       <label>Nome:</label>
+       <input class="input_design" type=text placeholder="Digite o seu primeiro nome" id="name" maxlength="10" required></input>
+      </div>
+      <div>
+       <label>Sobrenome:</label>
+       <input class="input_design" type=text placeholder="Digite o seu sobrenome" id="lastname" required></input>
+      </div>
+      <div>
+       <label>Idade:</label>
+       <input class="input_design" type=number placeholder="Digite a sua idade" id="age" required></input>
+       </div>
+       <div>
+       <label>Endereço:</label>
+       <input class="input_design" type=text placeholder="Digite o seu endereço" id="address" required></input>
+       </div>
+       <div>
+       <label>Login:</label>
+       <input class="input_design" type=text placeholder="Digite um nome para loguin" id="nickname" maxlength="5" minlength="5" required></input>
+       </div>
+       <div>
+       <label>Senha:</label>
+       <input class="input_design" type=text placeholder="Digite uma senha" id="password"maxlength="8" minlength="8" required></input>
+       </div>
+       <div>
+       <label>Repetir senha:</label>
+       <input class="input_design" type=text placeholder="Digite a senha novamente" id="passwordtwo" maxlength="8" minlength="8" required></input>
+       </div>
+       <br>
+       <div>
+       <button class="botao" type="submit" id="submit_but"><label>Cadastrar</label></button>
+       <br>
+       <br>
+       <button class="botao" type="reset" id="reset_but"><label>Apagar</label></button>
+       <div>
+        
+    </form>
+  <script src="formulario.js"></script> 
+  </div> 
+</body>
+</html>

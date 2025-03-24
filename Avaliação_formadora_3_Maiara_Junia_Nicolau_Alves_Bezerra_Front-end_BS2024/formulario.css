@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.botao{
+    background-color: darkorchid;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color:white;
+    font-size: 15px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:antiquewhite;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(120deg, #ba2ed6, #000000)
+}
+.form_box{
+    position: absolute;
+    padding: 15px;
+    border: 50px;
+    border-radius: 15px;
+    /*justify-content: center;
+    align-items: center;*/
+    background-color: rgb(0,0,0,0.6);
+   
+}
+
+.form_cadastro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+input{
+    margin-bottom: 1rem;
+}
+
+.input_design{
+    padding: 8px 5px;
+    border-radius: 10px;
+    outline: none;
+}
